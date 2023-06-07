@@ -1,0 +1,33 @@
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: white;
+}
+
+body{
+
+font-family: 'Roboto', sans-serif;
+}
+
+.mobile-navigation{
+    list-style: none;
+}
+
+.mobile-navigation li a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    color: black;
+}
