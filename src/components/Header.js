@@ -36,7 +36,7 @@ export const Header = () => {
           <MenuIcon/>
         </IconButton>
        
-        <Typography color={"goldenrod"} variant='h6' component={'div'} sx={{flexGrow:1}} >  <FastfoodIcon/> MY Resturentf</Typography> 
+        <Typography color={"goldenrod"} variant='h6' component={'div'} sx={{flexGrow:1}} >  <FastfoodIcon/> MY Resturent</Typography> 
       
       <Box sx={{display:{xs:"none",sm:"block "}}}>
         
