@@ -32,7 +32,7 @@ export const Header = () => {
     <Box>
       <AppBar component={ 'nav'} sx={{bgcolor:"black"}}>
       <Toolbar> 
-        <IconButton color='inherit' aria-level="open drawer" edge="start" sx={{mr:2, display:{sm:"none"}}} onClick={handleDrawerToggle}> 
+        <IconButton color='inherit' aria-level={0} edge="start" sx={{mr:2, display:{sm:"none"}}} onClick={handleDrawerToggle}> 
           <MenuIcon/>
         </IconButton>
        
